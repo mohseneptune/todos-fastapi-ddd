@@ -20,6 +20,6 @@ clean:
 tree:
 	@make clean
 	@echo "Generating project tree..."
-	@tree -L 3 -a -I todos.venv/ -I .git/
+	@tree -L 4 -a -I todos.venv/ -I .git/
 
 .PHONY: run activate install clean tree
